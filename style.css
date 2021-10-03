@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@100&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+header{
+    height: 70px;
+    width: 100%;
+    background-color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-size:40px;
+    color: #C8C8C8;
+}
+.header-items  i{
+    color: black;
+    font-size: 25px;
+}
+.container{
+    padding: 0 70px;
+}
+.header-items{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding:5px 10px;
+}
+.hero-image{
+    height: 100%;
+    overflow: hidden;
+}
+.hero-image img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    position: relative;
+}
+.hero-image .container{
+    color: #fff;
+    top: 80%;
+    left: 33%;
+    transform: translate(-50%,-67%);
+    position: absolute;
+}
+.hero-image-content{
+    width: 100%;
+    font-size: 40px;
+    font-family: 'Archivo', sans-serif;
+    position: relative;
+    padding-top:7em;
+}
+.hero-image-content span{
+    font-size: 100px;
+    font-family: 'Archivo Black', sans-serif;
+}
+.hero-image-content hr{
+    border: 5px solid #fff;
+    margin: 5px;
+    width: 80%;
+}
+.hero-pictures {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Archivo', sans-serif;
+}
+.services{
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+    text-align: center;
+    font-family: 'Archivo', sans-serif;
+    padding: 50px 0;
+    overflow: hidden;
+    
+}
+.services h2{
+    color:#6e6c6c;
+    line-height: 40px;
+}
+.services h1{
+    font-family: 'Archivo Black',sans-serif;
+    font-size: 30px;
+}
+.services .container{
+    width: 60%;
+    margin: auto;
+}
+button{
+    width: 150px;
+    background-color: red;
+    padding:20px;
+    border:none;
+    border-radius: 5px;
+    color: #fff;
+}
+.help{
+    width: 100%;
+}
+.help .container{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    font-family: 'Archivo', sans-serif;
+}
+.help-one{
+    width: 90%;
+}
+.help-one p{
+    width: 80%;
+    margin: auto;
+    font-size: 18px;
+    padding:40px;
+    line-height: 25px;
+}
+.help-two{
+width: 90%;
+font-family: 'Archivo Black', sans-serif;
+margin: 0  0 20px 0;
+}
+.help-two h2{
+    color: red;
+    
+}
+.quality{
+    width: 100%;
+    background-color: rgb(201, 199, 199);
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    font-family: 'Archivo',sans-serif;
+    padding-bottom: 20px;
+}
+.quality .container{
+    width: 100%;
+}
+.quality-one{
+width: 100%;
+
+}
+.quality-one img{
+    width: 90%;  
+}
+.quality-two{
+width:100%;
+line-height: 30px;
+font-size: 20px;
+}
+.quality-two h1{
+    margin-top: 2em;
+    font-size: 60px;
+    color: rgb(22, 81, 170);
+    font-family: 'Archivo Black', sans-serif;
+    width: 100%;
+}
+.quality p{
+    width: 80%;
+}
+.quality hr{
+    border: 5px solid red;
+    margin: 5px 0;
+    width: 100%;
+}
+.second-service{
+    width: 80%;
+    margin: auto;
+}
+.second-service-title{
+    font-size: 30px;
+    font-family: 'Archivo Black';
+}
+.second-service .content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Archivo Black';
+}
+.second-service .content img{
+    background-color: red;
+    padding: 20px;
+    border-radius: 50%;
+}
+.second-service .content p{
+    font-size: 18px;
+    font-family: 'Archivo',sans-serif;
+    line-height: 30px;
+    font-style: oblique;
+}
+.about{
+    width: 100%;
+    background-color: rgb(15, 80, 155);
+    color: #fff;
+    font-family: 'Archivo';
+}
+.about .container{
+    width:70%;
+    margin: auto;
+    padding: 5em;
+    display: flex;
+    flex-direction: row;
+}
+.about-one{
+    width: 80%;
+    padding-top: 5em;
+    margin-right: 20px;
+}
+.about-one span{
+    font-family: 'Archivo Black';
+}
+.about-one h4{
+    margin-bottom: 0;
+}
+.about-one h1{
+    font-size: 100px;
+    margin-top: 0;
+    
+}
+.about-two{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+}
+.about-two img{
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    object-fit: cover;
+}
+.to-do{
+    width: 50%;
+    margin:5rem auto;
+    text-align: center; 
+    font-family: 'Archivo';
+}
+.to-do h1{
+    font-size: 30px;
+    font-family: 'Archivo Black';
+}
+.to-do h2{
+    font-size: 30px;
+    line-height: 50px;
+}
+#btn2{
+    margin-left: 10px;
+    background-color: #fff;
+    color: black;
+    border: 1px solid black;
+}
+footer{
+    width: 100%;
+    background-color: rgba(22, 22, 22, 0.836);
+}
+.footnote{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 1em;
+}
+footer p{
+    font-size: 18px;
+    color: #fff;
+    
+}
+footer h5{
+    color: #fff;
+    font-size: 16px;
+    padding-top: 3em;
+}
+footer a{
+    color: rgba(169, 204, 238, 0.719);
+    font-size: 16px;
+}
+footer a:hover{
+    text-decoration: none;
+    color: darkgrey;
+}
+
+@media  (max-width:1000px) {
+    .container{
+        padding: 0 40px;
+    }
+    .hero-image{
+        width: 100%;
+    }
+    .hero-image .container{
+        width: 80%;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        
+    }
+
+    .hero-image-content{
+        width: 100%;
+        font-size: 30px;
+    }
+    .hero-pictures {
+        width: 0;
+        display: none;
+    }
+    .hero-pictures img{
+        width: 0;
+    }
+    .hero-pictures h3{
+      width: 0;
+    }
+    .hero-image-content span{
+        font-size: 60px;
+    }
+    hr{
+        width: 80%;
+    }
+    .help .container{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .help-one img{
+        width: 100%;
+    }
+    .help-two img{
+        width: 100%;
+    }
+    .quality{
+        width: 100%;
+        background-color: rgb(156, 153, 153);
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        
+    }
+    .quality-one{
+    width: 90%;
+    }
+    .quality-one img{
+        width: 90%;
+    }
+    .quality-two{
+    width:90%;
+    }
+    .quality-two h1{
+        margin-top: 2em;
+        font-size: 50px;
+        width: 60%;
+        line-height: 50px;
+    }
+    .quality hr{
+        border: 5px solid red;
+        width: 70%;
+    }
+    .second-service .content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Archivo Black';
+    }
+    .about .container{
+        width:70%;
+        margin: auto;
+        padding: 5em;
+        display: flex;
+        flex-direction: column;
+    }
+    .about-one{
+        width: 80%;
+        padding-top: 5em;    
+    }
+    
+    .about-one h1{
+        font-size: 60px;
+        margin-top: 0;
+        
+    }
+    .about-two{
+        width: 100%;
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .about-two img{
+        height: 300px;
+        width: 300px;
+        object-fit: cover;
+    }
+    .to-do{
+        width: 80%;
+    }
+    .to-do h1{
+        font-size: 20px;
+        font-family: 'Archivo Black';
+    }
+    .to-do h2{
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .to-do button, #btn2{
+        margin: 40px;
+        padding:20px 40px;
+    }
+    #btn2{
+        margin-top:0;
+    }
+    .footnote{
+        width: 80%;
+    }
+    footer p{
+        font-size: 14px;  
+    }
+    footer h5{
+        color: #fff;
+        font-size: 14px;
+    }
+    footer a{
+        font-size: 14px;
+    }
+}
+
