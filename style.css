@@ -289,7 +289,7 @@ footer a:hover{
     }
     .hero-image .container{
         width: 80%;
-        top: 30%;
+        top: 50%;
         left: 50%;
         transform: translate(-50%,-50%);
         position: absolute;
@@ -299,6 +299,7 @@ footer a:hover{
     .hero-image-content{
         width: 100%;
         font-size: 30px;
+        padding: 0;
     }
     .hero-pictures {
         width: 0;
@@ -311,9 +312,10 @@ footer a:hover{
       width: 0;
     }
     .hero-image-content span{
+        width: 80%;
         font-size: 60px;
     }
-    hr{
+    .hero-image-content span hr{
         width: 80%;
     }
     .help .container{
@@ -369,8 +371,7 @@ footer a:hover{
         flex-direction: column;
     }
     .about-one{
-        padding-top: 5em;
-        background-color: red;    
+        padding-top: 5em;   
     }
     
     .about-one h1{
@@ -423,17 +424,17 @@ footer a:hover{
 }
 
 @media (max-width:480px) {
-    .hero-image .container{
-        width: 80%;
-        top: 20%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        position: absolute;
-        
-    }
+    
         .about-two img{
             height: 150px;
             width: 150px;
             object-fit: cover;
+        }
+        .hero-image-content span{
+            width: 80%;
+            font-size: 40px;
+        }
+        .hero-image-content span hr{
+            width: 100%;
         }
 }
