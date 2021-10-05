@@ -369,12 +369,13 @@ footer a:hover{
         flex-direction: column;
     }
     .about-one{
-        width: 80%;
-        padding-top: 5em;    
+        padding-top: 5em;
+        background-color: red;    
     }
     
     .about-one h1{
-        font-size: 60px;
+        width: 90%;
+        font-size: 50px;
         margin-top: 0;
         
     }
@@ -422,9 +423,16 @@ footer a:hover{
 }
 
 @media (max-width:480px) {
-    
+    .hero-image .container{
+        width: 80%;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        
+    }
         .about-two img{
-            height: 1500px;
+            height: 150px;
             width: 150px;
             object-fit: cover;
         }
