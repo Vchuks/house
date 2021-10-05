@@ -444,7 +444,7 @@ footer a:hover{
         }
         .hero-image .container{
             width: 80%;
-            top: 50%;
+            top: 30%;
             left: 50%;
             transform: translate(-50%,-50%);
             position: absolute;
