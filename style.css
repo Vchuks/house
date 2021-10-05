@@ -424,10 +424,12 @@ footer a:hover{
 }
 
 @media (max-width:480px) {
-    
+    body{
+        overflow-x: hidden;
+    }
         .about-two img{
-            height: 150px;
-            width: 150px;
+            height: 200px;
+            width: 200px;
             object-fit: cover;
         }
         .hero-image-content span{
@@ -437,4 +439,13 @@ footer a:hover{
         .hero-image-content span hr{
             width: 100%;
         }
+        .hero-image .container{
+            width: 80%;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            position: absolute;
+            
+        }
+    
 }
