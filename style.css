@@ -281,6 +281,9 @@ footer a:hover{
 }
 
 @media  (max-width:1000px) {
+    body{
+        overflow-x: hidden;
+    }
     .container{
         padding: 0 40px;
     }
@@ -437,11 +440,11 @@ footer a:hover{
             font-size: 40px;
         }
         .hero-image-content span hr{
-            width: 100%;
+            width: 80%;
         }
         .hero-image .container{
             width: 80%;
-            top: 20%;
+            top: 40%;
             left: 50%;
             transform: translate(-50%,-50%);
             position: absolute;
