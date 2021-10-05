@@ -426,7 +426,9 @@ footer a:hover{
 }
 
 @media (max-width:600px) {
-   
+   body{
+       overflow-x: hidden;
+   }
     
         .about-two img{
             height: 200px;
