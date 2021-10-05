@@ -296,13 +296,12 @@ footer a:hover{
         left: 50%;
         transform: translate(-50%,-50%);
         position: absolute;
-        background-color: red;
     }
 
     .hero-image-content{
         width: 100%;
         font-size: 30px;
-        padding: 0;
+        padding-top: 20px;
     }
     .hero-pictures {
         width: 0;
@@ -319,7 +318,7 @@ footer a:hover{
         font-size: 60px;
     }
     .hero-image-content span hr{
-        width: 70%;
+        width: 300px;
     }
     .help .container{
         width: 80%;
@@ -440,8 +439,12 @@ footer a:hover{
             font-size: 40px;
         }
         .hero-image-content span hr{
-            width: 60%;
+            width: 200px;
         }
-       
+        .hero-image-content{
+            width: 100%;
+            font-size: 20px;
+            padding-top: 30px;
+        }
     
 }
