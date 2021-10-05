@@ -421,3 +421,11 @@ footer a:hover{
     }
 }
 
+@media (max-width:480px) {
+    
+        .about-two img{
+            height: 1500px;
+            width: 150px;
+            object-fit: cover;
+        }
+}
