@@ -301,7 +301,7 @@ footer a:hover{
     .hero-image-content{
         width: 100%;
         font-size: 30px;
-        padding: 30px;
+        padding-top: 3em;
     }
     .hero-pictures {
         width: 0;
@@ -444,7 +444,6 @@ footer a:hover{
         .hero-image-content{
             width: 100%;
             font-size: 20px;
-            padding-top: 30px;
         }
     
 }
