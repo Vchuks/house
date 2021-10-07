@@ -3,7 +3,6 @@
 body{
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
 }
 header{
     height: 70px;
@@ -56,7 +55,7 @@ header{
     font-size: 100px;
     font-family: 'Archivo Black', sans-serif;
 }
-.hero-image-content hr{
+.hero-image-content span hr{
     border: 5px solid #fff;
     margin: 5px;
     width: 80%;
@@ -130,33 +129,35 @@ margin: 0  0 20px 0;
 .quality{
     width: 100%;
     background-color: rgb(201, 199, 199);
+}
+.quality .container{
     display: flex;
     flex-direction: row;
     margin: auto;
     font-family: 'Archivo',sans-serif;
     padding-bottom: 20px;
-}
-.quality .container{
-    width: 100%;
+    justify-content: space-between;
 }
 .quality-one{
-width: 100%;
+width: 40%;
 
 }
 .quality-one img{
-    width: 90%;  
+    width: 80%; 
+    float: right; 
 }
 .quality-two{
-width:100%;
+width:50%;
 line-height: 30px;
 font-size: 20px;
+clear: both;
 }
 .quality-two h1{
     margin-top: 2em;
     font-size: 60px;
     color: rgb(22, 81, 170);
     font-family: 'Archivo Black', sans-serif;
-    width: 100%;
+    width: 90%;
 }
 .quality p{
     width: 80%;
@@ -164,7 +165,7 @@ font-size: 20px;
 .quality hr{
     border: 5px solid red;
     margin: 5px 0;
-    width: 100%;
+    width: 500px;
 }
 .second-service{
     width: 80%;
@@ -198,7 +199,6 @@ font-size: 20px;
     font-family: 'Archivo';
 }
 .about .container{
-    width:70%;
     margin: auto;
     padding: 5em;
     display: flex;
@@ -281,9 +281,7 @@ footer a:hover{
 }
 
 @media  (max-width:1000px) {
-    body{
-        overflow-x: hidden;
-    }
+
     .container{
         padding: 0 40px;
     }
@@ -332,22 +330,20 @@ footer a:hover{
     .help-two img{
         width: 100%;
     }
-    .quality{
-        width: 100%;
+    .quality .container{
         background-color: rgb(156, 153, 153);
         display: flex;
         flex-direction: column;
-        margin: auto;
-        
     }
     .quality-one{
-    width: 90%;
+    width: 80%;
     }
     .quality-one img{
-        width: 90%;
+        width: 80%;
     }
     .quality-two{
-    width:90%;
+    width:80%;
+    margin: auto;
     }
     .quality-two h1{
         margin-top: 2em;
@@ -366,7 +362,7 @@ footer a:hover{
         font-family: 'Archivo Black';
     }
     .about .container{
-        width:70%;
+        
         margin: auto;
         padding: 5em;
         display: flex;
@@ -426,9 +422,6 @@ footer a:hover{
 }
 
 @media (max-width:600px) {
-   body{
-       overflow-x: hidden;
-   }
     
         .about-two img{
             height: 200px;
