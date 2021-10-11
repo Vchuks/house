@@ -335,13 +335,13 @@ footer a:hover{
         flex-direction: column;
     }
     .quality-one{
-    width: 80%;
+    width: 90%;
     }
     .quality-one img{
         width: 80%;
     }
     .quality-two{
-    width:80%;
+    width:90%;
     margin: auto;
     }
     .quality-two h1{
@@ -354,6 +354,9 @@ footer a:hover{
         border: 5px solid red;
         width: 100%;
     }
+    .second-service{
+        width: 80%;
+    }
     .second-service .content{
         width: 100%;
         display: flex;
@@ -361,7 +364,7 @@ footer a:hover{
         font-family: 'Archivo Black';
     }
     .about .container{
-        padding: 5em;
+        padding: 0 40px;
         display: flex;
         flex-direction: column;
     }
@@ -380,6 +383,7 @@ footer a:hover{
         width: 100%;
         display:flex;
         flex-wrap: wrap;
+        margin: auto;
     }
     .about-two img{
         height: 600px;
