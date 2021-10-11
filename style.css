@@ -199,7 +199,6 @@ clear: both;
     font-family: 'Archivo';
 }
 .about .container{
-    margin: auto;
     padding: 5em;
     display: flex;
     flex-direction: row;
@@ -362,14 +361,13 @@ footer a:hover{
         font-family: 'Archivo Black';
     }
     .about .container{
-        
-        margin: auto;
         padding: 5em;
         display: flex;
         flex-direction: column;
     }
     .about-one{
-        padding-top: 5em;   
+        padding-top: 2em;  
+        margin-right: 0; 
     }
     
     .about-one h1{
@@ -446,6 +444,10 @@ footer a:hover{
             left: 50%;
             transform: translate(-50%,-50%);
             position: absolute;
+        }
+        .about-one{
+            margin-right: 0;
+            padding-top: 2em;
         }
 
         .to-do button, #btn2{
