@@ -58,10 +58,10 @@ header{
 .hero-image-content span hr{
     border: 5px solid #fff;
     margin: 5px;
-    width: 80%;
+    width: 100%;
 }
 .hero-pictures {
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -280,7 +280,7 @@ footer a:hover{
     color: darkgrey;
 }
 
-@media  (max-width:1000px) {
+@media  (max-width:1119px) {
 
     .container{
         padding: 0 40px;
@@ -290,7 +290,7 @@ footer a:hover{
     }
     .hero-image .container{
         width: 80%;
-        top: 50%;
+        top: 70%;
         left: 50%;
         transform: translate(-50%,-50%);
         position: absolute;
@@ -298,7 +298,7 @@ footer a:hover{
 
     .hero-image-content{
         width: 100%;
-        font-size: 30px;
+        font-size: 40px;
         padding:0;
     }
     .hero-pictures {
@@ -313,10 +313,10 @@ footer a:hover{
     }
     .hero-image-content span{
         width: 80%;
-        font-size: 60px;
+        font-size: 80px;
     }
     .hero-image-content span hr{
-        width: 300px;
+        width: 70%;
     }
     .help .container{
         width: 80%;
@@ -353,7 +353,7 @@ footer a:hover{
     }
     .quality hr{
         border: 5px solid red;
-        width: 70%;
+        width: 100%;
     }
     .second-service .content{
         width: 100%;
@@ -384,8 +384,8 @@ footer a:hover{
         flex-wrap: wrap;
     }
     .about-two img{
-        height: 300px;
-        width: 300px;
+        height: 600px;
+        width: 600px;
         object-fit: cover;
     }
     .to-do{
@@ -400,11 +400,11 @@ footer a:hover{
         line-height: 40px;
     }
     .to-do button, #btn2{
-        margin: 40px;
-        padding:20px 40px;
+        margin: 80px 80px 20px 80px;
+        padding:20px 30px;
     }
     #btn2{
-        margin-top:0;
+        margin-top:20px;
     }
     .footnote{
         width: 80%;
@@ -421,20 +421,19 @@ footer a:hover{
     }
 }
 
-@media (max-width:600px) {
+@media (max-width:767px) {
     
         .about-two img{
             height: 200px;
             width: 200px;
             object-fit: cover;
-           
         }
         .hero-image-content span{
             width: 80%;
-            font-size: 40px;
+            font-size: 50px;
         }
         .hero-image-content span hr{
-            width: 200px;
+            width: 70%;
         }
         .hero-image-content{
             width: 100%;
@@ -443,10 +442,17 @@ footer a:hover{
         }
         .hero-image .container{
             width: 80%;
-            top: 40%;
+            top: 50%;
             left: 50%;
             transform: translate(-50%,-50%);
             position: absolute;
         }
 
+        .to-do button, #btn2{
+            margin: 40px;
+            padding:20px 30px;
+        }
+        #btn2{
+            margin-top:0;
+        }
 }
