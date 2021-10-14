@@ -391,10 +391,11 @@ footer a:hover{
         
     }
     .about-two{
-        width: 100%;
+        width: 80%;
         display:flex;
         flex-wrap: wrap;
         margin: auto;
+        justify-content: center;
     }
     .about-two img{
         height: 600px;
@@ -436,9 +437,6 @@ footer a:hover{
 
 @media (max-width:767px) {
     
-        .about-two{
-            justify-content: center;
-        }
         .about-two img{
             height: 200px;
             width: 300px;
