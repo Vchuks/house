@@ -389,7 +389,7 @@ footer a:hover{
         
     }
     .about-two{
-        width: 80%;
+        width: auto;
         display:flex;
         flex-wrap: wrap;
         margin: auto;
@@ -437,7 +437,7 @@ footer a:hover{
     
         .about-two img{
             height: 200px;
-            width: 300px;
+            width: 400px;
             object-fit: cover;
         }
         .hero-image-content span{
