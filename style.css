@@ -334,6 +334,17 @@ footer a:hover{
         display: flex;
         flex-direction: column;
     }
+    .services{
+        width: 100%;
+    }
+    .services h1{
+        font-family: 'Archivo Black',sans-serif;
+        font-size: 50px;
+    }
+    .services .container{
+        width: auto;
+        margin: auto;
+    }
     .quality-one{
     width: 90%;
     }
@@ -375,7 +386,7 @@ footer a:hover{
     
     .about-one h1{
         width: 90%;
-        font-size: 50px;
+        font-size: 60px;
         margin-top: 0;
         
     }
@@ -394,12 +405,12 @@ footer a:hover{
         width: 80%;
     }
     .to-do h1{
-        font-size: 20px;
+        font-size: 30px;
         font-family: 'Archivo Black';
     }
     .to-do h2{
-        font-size: 20px;
-        line-height: 40px;
+        font-size: 30px;
+        line-height: 50px;
     }
     .to-do button, #btn2{
         margin: 80px 80px 20px 80px;
@@ -444,7 +455,7 @@ footer a:hover{
         }
         .hero-image .container{
             width: 80%;
-            top: 40%;
+            top: 50%;
             left: 50%;
             transform: translate(-50%,-50%);
             position: absolute;
@@ -461,4 +472,21 @@ footer a:hover{
         #btn2{
             margin-top:0;
         }
+        footer h5{
+            color: #fff;
+            font-size: 12px;
+        }
+        footer a{
+            font-size: 12px;
+        }
+}
+
+@media (max-width:480px) {
+    .hero-image .container{
+        width: 80%;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+    }
 }
