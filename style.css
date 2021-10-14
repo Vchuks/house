@@ -288,7 +288,7 @@ footer a:hover{
         width: 100%;
     }
     .hero-image .container{
-        width: 80%;
+        width: 60%;
         top: 70%;
         left: 50%;
         transform: translate(-50%,-50%);
@@ -436,27 +436,29 @@ footer a:hover{
 
 @media (max-width:767px) {
     
+        .about-two{
+            justify-content: center;
+        }
         .about-two img{
             height: 200px;
-            width: 200px;
+            width: 300px;
             object-fit: cover;
         }
         .hero-image-content span{
             width: 80%;
-            font-size: 40px;
+            font-size: 60px;
         }
         .hero-image-content span hr{
-            width: 80%;
+            width: 100%;
         }
         .hero-image-content{
             width: 100%;
-            font-size: 20px;
+            font-size: 25px;
             padding:0;
         }
         .hero-image .container{
-            width: 80%;
             top: 50%;
-            left: 50%;
+            left: 40%;
             transform: translate(-50%,-50%);
             position: absolute;
         }
@@ -483,10 +485,14 @@ footer a:hover{
 
 @media (max-width:480px) {
     .hero-image .container{
-        width: 80%;
         top: 40%;
         left: 50%;
         transform: translate(-50%,-50%);
         position: absolute;
+    }
+    .about-two img{
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
     }
 }
